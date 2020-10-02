@@ -4,7 +4,7 @@ const privateKeyDev =
    '99B3C12287537E38C90A9219D4CB074A89A16E9CDB20BF85728EBD97C343E342';
 // Moonbase Alpha Private Key --> Please change this to your own Private Key with funds
 const privateKeyMoonbase =
-   '***REMOVED***';
+   '';
 
 module.exports = {
    networks: {
