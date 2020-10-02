@@ -13,7 +13,7 @@ module.exports = {
             if (!privateKeyDev.trim()) {
                throw new Error('Please enter a private key with funds, you can use the default one');
             }
-            new PrivateKeyProvider(privateKeyDev, 'http://localhost:9933/', 43)
+            return new PrivateKeyProvider(privateKeyDev, 'http://localhost:9933/', 43)
          },
          network_id: 43,
       },
@@ -25,7 +25,7 @@ module.exports = {
             if (privateKeyDev == privateKeyMoonbase) {
                throw new Error('Please change the private key used for Moonbase to your own with funds');
             }
-            new PrivateKeyProvider(privateKeyMoonbase, 'https://rpc.testnet.moonbeam.network', 43)
+            return new PrivateKeyProvider(privateKeyMoonbase, 'https://rpc.testnet.moonbeam.network', 43)
          },
          network_id: 43,
       },
