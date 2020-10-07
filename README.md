@@ -20,22 +20,22 @@ npm install
 ```
 The dependencies installed are the following:
 
+-  Minimist  
 -  EthereumJS wallet: a lightweight wallet implementation.
--  Minimist: TODO
--  Web3 Provider Engine: tool for composing custom Web3 providers.
+-  Web3 Provider Engine: a tool for composing custom Web3 providers.
 -  Truffle: this is not needed if you have installed it globally.
--  Moonbeam Truffle Plugin: tool to easily create your own standalone Moonbeam node for development (uses Docker).
+-  Moonbeam Truffle Plugin: a tool to easily create your own standalone Moonbeam node for development (uses Docker).
 
 ## Networks
 
 Moonbeam Truffle Box is pre-configured with two networks: standalone and TestNet. To deploy in the standalone network please check the Moonbeam Truffle Pluggin section to install and start your own local node.
 
 ```
-node_modules/.bin/truffle migrate --network development
+node_modules/.bin/truffle migrate --network dev
 ```
 
 ```
-node_modules/.bin/truffle migrate --network testnet
+node_modules/.bin/truffle migrate --network moonbase
 ```
 
 _Note: if you have Truffle installed globally, you can replace `node_modules/.bin/truffle` for `truffle`._
