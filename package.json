@@ -3,7 +3,6 @@
    "version": "1.0.0",
    "dependencies": {
       "@openzeppelin/contracts": "^2.5.0",
-      "@truffle/hdwallet-provider": "^1.1.0",
       "ethereumjs-wallet": "^1.0.0",
       "minimist": ">=0.2.1",
       "moonbeam-truffle-plugin": ">=1.1.1",
