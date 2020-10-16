@@ -86,5 +86,12 @@ Shows the status of the standalone Moonbeam node.
 node_modules/.bin/truffle run moonbeam status
 ```
 
+### Remove
+Removes the Docker image of the Moonbeam standalone node.
+
+```
+node_modules/.bin/truffle run moonbeam remove
+```
+
 ## Contact Us
 We welcome any feedback, so feel free to reach out through our official [Discord Channel](https://discord.gg/PfpUATX).
