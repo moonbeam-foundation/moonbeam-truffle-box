@@ -13,7 +13,7 @@ To get started, clone this repository
 https://github.com/PureStake/moonbeam-truffle-box
 ```
 
-Afterwards, install all the dependencies:
+Afterwards, inside the moonbeam-truffle-box folder, install all the dependencies:
 
 ```
 npm install
