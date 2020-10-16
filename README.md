@@ -10,7 +10,7 @@ A beta version of the Moonbeam Truffle Box.
 To get started, clone this repository
 
 ```
-git clone https://github.com/albertov19/moonbeam_box
+https://github.com/PureStake/moonbeam-truffle-box
 ```
 
 Afterwards, install all the dependencies:
