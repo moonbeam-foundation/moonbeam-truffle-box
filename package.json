@@ -5,7 +5,7 @@
       "@openzeppelin/contracts": "^2.5.0",
       "ethereumjs-wallet": "^1.0.0",
       "minimist": ">=0.2.1",
-      "moonbeam-truffle-plugin": ">=1.1.4",
+      "moonbeam-truffle-plugin": ">=1.1.5",
       "truffle": "^5.1.33",
       "web3-provider-engine": "https://github.com/MetaMask/web3-provider-engine.git"
    }
