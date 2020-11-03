@@ -13,7 +13,7 @@
     "Pause standalone node": "truffle run moonbeam pause",
     "Unpause docker image standalone node": "truffle run moonbeam unpause",
     "Get standalone node status": "truffle run moonbeam status",
-    "Remove docker image standalone node": "truffle run moonbeam remove",
+    "Remove docker image standalone node": "truffle run moonbeam remove"
   },
   "hooks": {
     "post-unpack": ""
