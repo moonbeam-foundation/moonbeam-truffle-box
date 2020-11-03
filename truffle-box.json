@@ -1,0 +1,21 @@
+{
+  "ignore": [
+    "README.md",
+    ".gitignore"
+  ],
+  "commands": {
+    "Compile contracts": "truffle compile",
+    "Migrate contracts": "truffle migrate",
+    "Test contracts": "truffle test",
+    "Pull docker image standalone node": "truffle run moonbeam install",
+    "Start standalone node": "truffle run moonbeam start",
+    "Stop docker image standalone node": "truffle run moonbeam stop",
+    "Pause standalone node": "truffle run moonbeam pause",
+    "Unpause docker image standalone node": "truffle run moonbeam unpause",
+    "Get standalone node status": "truffle run moonbeam status",
+    "Remove docker image standalone node": "truffle run moonbeam remove",
+  },
+  "hooks": {
+    "post-unpack": ""
+  }
+}
