@@ -2,22 +2,30 @@
 
 # Moonbeam Truffle Box
 
-A beta version of the Moonbeam Truffle Box. 
-
+The first release of a Truffle box for Moonbeam. With it you will find a Truffle boilerplate setup to get started deploying smart contracts on Moonbeam quickly.
 
 ## Getting started
 
-To get started, clone this repository
+To get started with the Moonbeam Truffle box, if you have Truffle installed globally, you can execute:
 
 ```
-https://github.com/PureStake/moonbeam-truffle-box
+mkdir moonbeam-truffle-box && cd moonbeam-truffle-box
+truffle unbox PureStake/moonbeam-truffle-box
 ```
 
-Afterwards, inside the moonbeam-truffle-box folder, install all the dependencies:
+Nevertheless, the box has also Truffle as a dependency in case you do not want to have it installed globally. In such a case, you can directly clone the following repository:
+
+```
+git clone https://github.com/PureStake/moonbeam-truffle-box
+cd moonbeam-truffle-box
+``` 
+
+With the files in your local system, the next step is to install all dependencies by running:
 
 ```
 npm install
 ```
+
 The dependencies installed are the following:
 
 -  Minimist  
