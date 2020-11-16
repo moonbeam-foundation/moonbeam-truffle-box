@@ -15,7 +15,7 @@ module.exports = {
             }
             return new PrivateKeyProvider(privateKeyDev, 'http://localhost:9933/', 43)
          },
-         network_id: 43,
+         network_id: 1281,
       },
       moonbase: {
          provider: () => {
@@ -27,7 +27,7 @@ module.exports = {
             }
             return new PrivateKeyProvider(privateKeyMoonbase, 'https://rpc.testnet.moonbeam.network', 43)
          },
-         network_id: 43,
+         network_id: 1287,
       },
    },
 
