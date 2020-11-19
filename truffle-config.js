@@ -8,6 +8,7 @@ const privateKeyMoonbase =
 
 module.exports = {
    networks: {
+      // Standalode Network
       dev: {
          provider: () => {
             if (!privateKeyDev.trim()) {
@@ -17,6 +18,7 @@ module.exports = {
          },
          network_id: 1281,
       },
+      // Moonbase Alpha TestNet
       moonbase: {
          provider: () => {
             if (!privateKeyMoonbase.trim()) {
@@ -30,6 +32,12 @@ module.exports = {
          network_id: 1287,
       },
    },
-
+   // Solidity 0.7.0 Compiler
+   compilers: {
+      solc: {
+        version: "^0.7.0"
+      }
+   },
+   // Moonbeam Truffle Plugin
    plugins: ['moonbeam-truffle-plugin']
 };
