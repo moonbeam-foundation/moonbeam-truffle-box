@@ -25,6 +25,7 @@ With the files in your local system, the next step is to install all dependencie
 ```
 npm install
 ```
+_Note:_ We noticed that if you are using `npm v7.0.15` you might have some errors when running `npm install`. To fix this you can downgrade npm to an older release such as `6.14.9` or `7.0.8` by running, for exmaple, `npm install -g npm@v6.14.9`.
 
 The dependencies installed are the following:
 
