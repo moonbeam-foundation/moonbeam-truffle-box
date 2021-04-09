@@ -33,11 +33,11 @@ The dependencies installed are the following:
 -  EthereumJS wallet: a lightweight wallet implementation.
 -  Web3 Provider Engine: a tool for composing custom Web3 providers.
 -  Truffle: this is not needed if you have installed it globally.
--  Moonbeam Truffle Plugin: a tool to easily create your own standalone Moonbeam node for development (uses Docker).
+-  Moonbeam Truffle Plugin: a tool to easily create your own Moonbeam development node for quick and iterative development (uses Docker).
 
 ## Networks
 
-Moonbeam Truffle Box is pre-configured with two networks: standalone and TestNet. To deploy in the standalone network please check the Moonbeam Truffle Pluggin section to install and start your own local node.
+Moonbeam Truffle Box is pre-configured with two networks: Moonbeam Development and Moonbase Alpha TestNet. To deploy in the development network please check the Moonbeam Truffle Plugin section to install and start your own local node.
 
 ```
 node_modules/.bin/truffle migrate --network dev
@@ -51,7 +51,7 @@ _Note: if you have Truffle installed globally, you can replace `node_modules/.bi
 
 ## Moonbeam Truffle Plugin
 
-The plugin is used to get you started with a local standalone Moonbeam node quickly. You can check all available commands with the help flag:
+The plugin is used to get you started with a local development Moonbeam node quickly. You can check all available commands with the help flag:
 
 ```
 ./node_modules/.bin/truffle run moonbeam --help
@@ -60,49 +60,49 @@ The plugin is used to get you started with a local standalone Moonbeam node quic
 The following commands are available:
 
 ### Install
-In this context, installing means downloading the Docker image of the Moonbeam standalone node (requires Docker to be installed).
+In this context, installing means downloading the Docker image of the Moonbeam development node (requires Docker to be installed).
 
 ```
 node_modules/.bin/truffle run moonbeam install
 ```
 
 ### Start
-Start the standalone Moonbeam node.
+Start the development Moonbeam node.
 
 ```
 node_modules/.bin/truffle run moonbeam start
 ```
 
 ### Stop
-Stop the standalone Moonbeam node. This will remove the container, thus purging the chain.
+Stop the development Moonbeam node. This will remove the container, thus purging the chain.
 
 ```
 node_modules/.bin/truffle run moonbeam stop
 ```
 
 ### Pause
-Pause the standalone Moonbeam node.
+Pause the development Moonbeam node.
 
 ```
 node_modules/.bin/truffle run moonbeam pause
 ```
 
 ### Unpause
-Unpause the standalone Moonbeam node.
+Unpause the development Moonbeam node.
 
 ```
 node_modules/.bin/truffle run moonbeam unpause
 ```
 
 ### Status
-Shows the status of the standalone Moonbeam node.
+Shows the status of the development Moonbeam node.
 
 ```
 node_modules/.bin/truffle run moonbeam status
 ```
 
 ### Remove
-Removes the Docker image of the Moonbeam standalone node.
+Removes the Docker image of the Moonbeam development node.
 
 ```
 node_modules/.bin/truffle run moonbeam remove

@@ -7,13 +7,13 @@
     "Compile contracts": "truffle compile",
     "Migrate contracts": "truffle migrate",
     "Test contracts": "truffle test",
-    "Pull docker image standalone node": "truffle run moonbeam install",
-    "Start standalone node": "truffle run moonbeam start",
-    "Stop docker image standalone node": "truffle run moonbeam stop",
-    "Pause standalone node": "truffle run moonbeam pause",
-    "Unpause docker image standalone node": "truffle run moonbeam unpause",
-    "Get standalone node status": "truffle run moonbeam status",
-    "Remove docker image standalone node": "truffle run moonbeam remove"
+    "Pull docker image development node": "truffle run moonbeam install",
+    "Start development node": "truffle run moonbeam start",
+    "Stop docker image development node": "truffle run moonbeam stop",
+    "Pause development node": "truffle run moonbeam pause",
+    "Unpause docker image development node": "truffle run moonbeam unpause",
+    "Get development node status": "truffle run moonbeam status",
+    "Remove docker image development node": "truffle run moonbeam remove"
   },
   "hooks": {
     "post-unpack": ""
