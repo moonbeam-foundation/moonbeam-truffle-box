@@ -40,7 +40,7 @@ module.exports = {
             }
             return new HDWalletProvider(
                privateKeyMoonbase,
-               'https://rpc.testnet.moonbeam.network'
+               'https://rpc.api.moonbase.moonbeam.network'
             );
          },
          network_id: 1287,
