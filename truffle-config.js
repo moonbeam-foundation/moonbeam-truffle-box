@@ -52,6 +52,6 @@ module.exports = {
          version: '^0.7.0',
       },
    },
-   // Moonbeam Truffle Plugin
-   plugins: ['moonbeam-truffle-plugin'],
+   // Moonbeam Truffle Plugin & Truffle Plugin for Verifying Smart Contracts
+   plugins: ['moonbeam-truffle-plugin', 'truffle-plugin-verify'],
 };
