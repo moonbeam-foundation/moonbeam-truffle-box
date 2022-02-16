@@ -108,5 +108,9 @@ Removes the Docker image of the Moonbeam development node.
 node_modules/.bin/truffle run moonbeam remove
 ```
 
+## Truffle Plugin Verify
+
+As a convenience, the [`truffle-plugin-verify`](https://github.com/rkalis/truffle-plugin-verify) plugin has also been included in the Moonbeam Truffle Box. You can use this plugin to verify smart contracts automatically on [Moonscan](https://moonscan.io). For more information on how to use the plugin with Moonbeam, you can checkout the [Using the Truffle Verify Plugin](https://docs.moonbeam.network/builders/tools/verify-contracts/etherscan-plugins/#using-the-truffle-verify-plugin) section of the Moonbeam documentation.
+
 ## Contact Us
 We welcome any feedback, so feel free to reach out through our official [Discord Channel](https://discord.gg/PfpUATX).
