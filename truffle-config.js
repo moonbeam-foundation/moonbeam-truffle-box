@@ -49,7 +49,7 @@ module.exports = {
    // Solidity 0.7.0 Compiler
    compilers: {
       solc: {
-         version: '^0.7.0',
+         version: '^0.8.0',
       },
    },
    // Moonbeam Truffle Plugin & Truffle Plugin for Verifying Smart Contracts
