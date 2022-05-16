@@ -46,7 +46,7 @@ module.exports = {
          network_id: 1287,
       },
    },
-   // Solidity 0.7.0 Compiler
+   // Solidity 0.8.0 Compiler
    compilers: {
       solc: {
          version: '^0.8.0',
