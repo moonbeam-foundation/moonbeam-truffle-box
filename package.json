@@ -4,7 +4,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0",
     "@truffle/hdwallet-provider": "^2.0.8",
-    "moonbeam-truffle-plugin": "^3.0.0",
+    "moonbeam-truffle-plugin": "github:PureStake/moonbeam-truffle-plugin",
     "truffle": "^5.5.13",
     "truffle-plugin-verify": "^0.5.25"
   }
