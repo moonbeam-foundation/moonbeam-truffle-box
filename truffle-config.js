@@ -20,7 +20,7 @@ module.exports = {
             }
             return new HDWalletProvider(
                privateKeyDev,
-               'http://localhost:9933/'
+               'http://localhost:9944/'
             );
          },
          network_id: 1281,
