@@ -2,10 +2,10 @@
   "name": "moonbeam-truffle-box",
   "version": "1.0.0",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.6.0",
-    "@truffle/hdwallet-provider": "^2.0.8",
+    "@openzeppelin/contracts": "^4.9.2",
+    "@truffle/hdwallet-provider": "^2.1.12",
     "moonbeam-truffle-plugin": "github:PureStake/moonbeam-truffle-plugin",
-    "truffle": "^5.5.13",
-    "truffle-plugin-verify": "^0.5.25"
+    "truffle": "^5.10.2",
+    "truffle-plugin-verify": "^0.6.4"
   }
 }
