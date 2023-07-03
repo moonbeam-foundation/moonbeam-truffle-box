@@ -1,12 +1,22 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
+
 // Moonbeam Development Node Private Key
 const privateKeyDev =
   '99B3C12287537E38C90A9219D4CB074A89A16E9CDB20BF85728EBD97C343E342';
 // Moonbase Alpha Private Key --> Please change this to your own Private Key with funds
 // NOTE: Do not store your private key in plaintext files
-//       this is only for demostration purposes only
+//       this is only for demonstration purposes only
 const privateKeyMoonbase =
   'YOUR_PRIVATE_KEY_HERE_ONLY_FOR_DEMONSTRATION_PURPOSES';
+
+// You can use dotenv for environment variables. Please reference .env.example to setup
+// your private keys. **If choosing this method, make sure you add your .env file to 
+// the .gitignore file so you do not commit it!**
+// To use dotenv, you would need to take the following steps:
+// 1. Configure it
+// require('dotenv').config()
+// 2. Use it
+// process.env.PRIVATE_KEY
 
 module.exports = {
   networks: {
