@@ -4,6 +4,17 @@
 
 The first release of a Truffle box for Moonbeam. With it you will find a Truffle boilerplate setup to get started deploying smart contracts on Moonbeam quickly.
 
+## Node and NPM Versions
+
+It is recommended to use the Active LTS version of Node.js. As of writing (July 2023), the following versions of Node and NPM are recommended:
+
+- Node v18.16.1
+- NPM v9.7.2
+
+_Note:_ We noticed that if you are using `npm v7.0.15` you might have some errors when running `npm install`. To fix this you can downgrade npm to an older release such as `6.14.9` or `7.0.8` by running, for exmaple, `npm install -g npm@v6.14.9`.
+
+**If you run into problems or notice this is out of date, please let us know by opening an issue or submitting a PR!** 💜
+
 ## Getting started
 
 To get started with the Moonbeam Truffle box, if you have Truffle installed globally, you can execute:
@@ -18,14 +29,13 @@ Nevertheless, the box has also Truffle as a dependency in case you do not want t
 ```
 git clone https://github.com/PureStake/moonbeam-truffle-box
 cd moonbeam-truffle-box
-``` 
+```
 
 With the files in your local system, the next step is to install all dependencies by running:
 
 ```
 npm install
 ```
-_Note:_ We noticed that if you are using `npm v7.0.15` you might have some errors when running `npm install`. To fix this you can downgrade npm to an older release such as `6.14.9` or `7.0.8` by running, for exmaple, `npm install -g npm@v6.14.9`.
 
 The dependencies installed are the following:
 
