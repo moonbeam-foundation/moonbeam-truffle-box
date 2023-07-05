@@ -4,6 +4,17 @@
 
 The first release of a Truffle box for Moonbeam. With it you will find a Truffle boilerplate setup to get started deploying smart contracts on Moonbeam quickly.
 
+## Node and NPM Versions
+
+It is recommended to use the Active LTS version of Node.js. As of writing (July 2023), the following versions of Node and NPM are recommended:
+
+- Node v18.16.1
+- NPM v9.7.2
+
+_Note:_ We noticed that if you are using `npm v7.0.15` you might have some errors when running `npm install`. To fix this you can downgrade npm to an older release such as `6.14.9` or `7.0.8` by running, for exmaple, `npm install -g npm@v6.14.9`.
+
+**If you run into problems or notice this is out of date, please let us know by opening an issue or submitting a PR!** 💜
+
 ## Getting started
 
 To get started with the Moonbeam Truffle box, if you have Truffle installed globally, you can execute:
@@ -18,14 +29,13 @@ Nevertheless, the box has also Truffle as a dependency in case you do not want t
 ```
 git clone https://github.com/PureStake/moonbeam-truffle-box
 cd moonbeam-truffle-box
-``` 
+```
 
 With the files in your local system, the next step is to install all dependencies by running:
 
 ```
 npm install
 ```
-_Note:_ We noticed that if you are using `npm v7.0.15` you might have some errors when running `npm install`. To fix this you can downgrade npm to an older release such as `6.14.9` or `7.0.8` by running, for exmaple, `npm install -g npm@v6.14.9`.
 
 The dependencies installed are the following:
 
@@ -54,12 +64,13 @@ _Note: if you have Truffle installed globally, you can replace `node_modules/.bi
 The plugin is used to get you started with a local development Moonbeam node quickly. You can check all available commands with the help flag:
 
 ```
-./node_modules/.bin/truffle run moonbeam --help
+./node_modules/.bin/truffle run moonbeam help
 ```
 
 The following commands are available:
 
 ### Install
+
 In this context, installing means downloading the Docker image of the Moonbeam development node (requires Docker to be installed).
 
 ```
@@ -67,6 +78,7 @@ node_modules/.bin/truffle run moonbeam install
 ```
 
 ### Start
+
 Start the development Moonbeam node.
 
 ```
@@ -74,6 +86,7 @@ node_modules/.bin/truffle run moonbeam start
 ```
 
 ### Stop
+
 Stop the development Moonbeam node. This will remove the container, thus purging the chain.
 
 ```
@@ -81,6 +94,7 @@ node_modules/.bin/truffle run moonbeam stop
 ```
 
 ### Pause
+
 Pause the development Moonbeam node.
 
 ```
@@ -88,6 +102,7 @@ node_modules/.bin/truffle run moonbeam pause
 ```
 
 ### Unpause
+
 Unpause the development Moonbeam node.
 
 ```
@@ -95,6 +110,7 @@ node_modules/.bin/truffle run moonbeam unpause
 ```
 
 ### Status
+
 Shows the status of the development Moonbeam node.
 
 ```
@@ -102,6 +118,7 @@ node_modules/.bin/truffle run moonbeam status
 ```
 
 ### Remove
+
 Removes the Docker image of the Moonbeam development node.
 
 ```
@@ -113,4 +130,5 @@ node_modules/.bin/truffle run moonbeam remove
 As a convenience, the [`truffle-plugin-verify`](https://github.com/rkalis/truffle-plugin-verify) plugin has also been included in the Moonbeam Truffle Box. You can use this plugin to verify smart contracts automatically on [Moonscan](https://moonscan.io). For more information on how to use the plugin with Moonbeam, you can checkout the [Using the Truffle Verify Plugin](https://docs.moonbeam.network/builders/tools/verify-contracts/etherscan-plugins/#using-the-truffle-verify-plugin) section of the Moonbeam documentation.
 
 ## Contact Us
+
 We welcome any feedback, so feel free to reach out through our official [Discord Channel](https://discord.gg/PfpUATX).
